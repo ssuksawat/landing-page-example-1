@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+  <title>AppName | Landing page example 1</title>
+  <script src="//code.jquery.com/jquery-1.11.2.min.js"></script>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+
+  <link href="style.css" rel="stylesheet">
+</head>
+<body>
+
+  <!-- Header -->
+  <header class="navbar header">
+    <div class="header__mask"></div>
+    <div class="container">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#headerActions" aria-expanded="false">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a href="/" class="navbar-brand">AppName</a>
+      </div>
+      <div class="navbar-right">
+        <ul id="headerActions" class="collapse navbar-collapse nav navbar-nav ">
+          <li><a class="header__login" href="/contactme.html">Login</a></li>
+          <li><a class="header__signup" href="/contactme.html">Sign Up</a></li>
+        </ul>
+      </div>
+    </div>   <!-- .container -->
+  </header>  <!-- header -->
+
+  <!-- Cover Section -->
+  <div id="landing" class="cover">
+    <div class="background__mask"></div>
+    <div class="container">
+      <div class="row cover__body">
+        <div class="col-sm-8 col-sm-offset-2 col-xs-12">
+          <div class="coverContent__mask"></div>
+          <div class="cover__content">
+            <h1 class="cover__title">AWESOME TAGLINE HERE</h1>
+            <h3 class="cover__subtitle">This app will solve a problem you never knew you had!</h3>
+            <div class="cover__actions">
+              <a class="cover__action--highlighted" href="/contactme.html">Get Started</a>
+              <a id="howBtn" class="cover__action" href="/#features">Features <i class="material-icons">keyboard_arrow_down</i></a>
+            </div>
+          </div>
+        </div>
+      </div>  <!-- .cover__body -->
+    </div>    <!-- .container -->
+  </div>      <!-- End Cover -->
+
+  <!-- Feature Section -->
+  <div id="features" class="feature">
+    <div class="container">
+      <div class="row feature__list">
+        <div class="col-sm-4 col-xs-12 text-center">
+          <div class="featureCard">
+            <h2 class="featureCard__title">
+              Feature #1
+            </h2>
+            <div class="featureCard__divider"></div>
+            <p class="featureCard__description">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            </p>
+            <div class="featureCard__image">
+              <i class="material-icons">event</i>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-4 col-xs-12 text-center">
+          <div class="featureCard">
+            <h2 class="featureCard__title">
+              Feature #2
+            </h2>
+            <div class="featureCard__divider"></div>
+            <p class="featureCard__description">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            </p>
+            <div class="featureCard__image">
+              <i class="material-icons">map</i>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-4 col-xs-12 text-center">
+          <div class="featureCard">
+            <h2 class="featureCard__title">
+              Feature #3
+            </h2>
+            <div class="featureCard__divider"></div>
+            <p class="featureCard__description">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            </p>
+            <div class="featureCard__image">
+              <i class="material-icons">mood</i>
+            </div>
+          </div>
+        </div>
+      </div>  <!-- .feature__list -->
+      <div class="row">
+        <div class="col-xs-12 feature__demo">
+          <h3>Want to learn more?</h3>
+          <a href="/contactme.html">
+            Watch Preview
+          </a>
+        </div>
+      </div>
+    </div>  <!-- .container -->
+  </div>    <!-- End Feature -->
+
+  <!-- Testimonials Section -->
+  <div id="testimonials" class="testimonial">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-8 col-md-offset-2">
+          <div class="testimonial__block testimonial__block--large">
+            <div class="testimonial__quote">
+              Wow...this app is great...
+              <div class="quote__arrow"></div>
+            </div>
+            <div class="testimonial__customer">
+              <img src="assets/customer-1.jpg" alt="customer icon">
+              - Grumpy Cat
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-4">
+          <div class="testimonial__block">
+            <div class="testimonial__quote">
+              Very warm!
+              <div class="quote__arrow"></div>
+            </div>
+            <div class="testimonial__customer">
+              <img src="assets/customer-2.jpg" alt="customer icon">
+              - Burrito Cat
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="testimonial__block">
+            <div class="testimonial__quote">
+              What a pleasant surprise!
+              <div class="quote__arrow"></div>
+            </div>
+            <div class="testimonial__customer">
+              <img src="assets/customer-3.jpg" alt="customer icon">
+              - Surprised Cat
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="testimonial__block">
+            <div class="testimonial__quote">
+              Love it.
+              <div class="quote__arrow"></div>
+            </div>
+            <div class="testimonial__customer">
+              <img src="assets/customer-4.jpg" alt="customer icon">
+              - Big Cat
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- End Testimonial -->
+
+  <!-- Last Call-To-Action Section -->
+  <div id="lastAction" class="lastAction">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12 text-center">
+          <a href="/contactme.html" class="action">
+            SIGN UP NOW
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- End Call-To-Action -->
+
+  <!-- Footer Section -->
+  <footer class="footer">
+    <div class="container">
+      <div class="row footer__content">
+        <div class="col-sm-3 col-xs-6">
+          <label class="footer__label">Company</label>
+          <ul class="footer__menu">
+            <li><a href="/">About</a></li>
+            <li><a href="/">Terms of Use</a></li>
+            <li><a href="/">Privacy Policy</a></li>
+            <li><a href="/">Jobs</a></li>
+          </ul>
+        </div>
+        <div class="col-sm-3 col-xs-6">
+          <label class="footer__label">Community</label>
+          <ul class="footer__menu">
+            <li><a href="/">Blog</a></li>
+            <li><a href="/">Facebook</a></li>
+            <li><a href="/">Google+</a></li>
+          </ul>
+        </div>
+        <div class="col-sm-3 col-xs-6">
+          <label class="footer__label">Help</label>
+          <ul class="footer__menu">
+            <li><a href="/">Contact Us</a></li>
+            <li><a href="/">Chat Room</a></li>
+          </ul>
+        </div>
+        <div class="col-sm-3 col-xs-6">
+          <div class="appIcon">
+            <!-- <img src="assets/app-logo.png" alt="App Logo"> -->
+            <h2>AppName</h2>
+          </div>
+          <div class="copyright">
+            © Copyright goes here
+          </div>
+        </div>
+      </div>  <!-- .footer__content -->
+    </div>    <!-- .container -->
+  </footer>   <!-- Footer Section -->
+
+  <script src="script.js"></script>
+</body>
+</html>

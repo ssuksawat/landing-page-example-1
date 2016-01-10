@@ -1,0 +1,14 @@
+{
+  "name": "landing-page-template",
+  "version": "0.1.0",
+  "description": "Landing page template",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Sompop Suksawat (ssuksawat21@gmail.com)",
+  "license": "ISC",
+  "dependencies": {
+    "node-static": "^0.7.7"
+  }
+}
